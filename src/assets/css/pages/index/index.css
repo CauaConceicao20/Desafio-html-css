@@ -1,11 +1,21 @@
-@import "/src/assets/css/global/global.css";
+@import "../../global/global.css";
 
+html {
+     overflow: hidden;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .section_main {
     text-align: center;
-    margin: 30px auto;
     width: 87%;
 }
+
 .image_main {
     width: 100%;
 }

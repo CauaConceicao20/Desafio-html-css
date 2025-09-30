@@ -1,16 +1,15 @@
-@import "/src/assets/css/global/reset.css";
-@import "/src/assets/css/global/header.css";
-@import "/src/assets/css/global/footer.css";
-
+@import "./reset.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./menuLateral.css";
 
 html {
     height: 100%;
-    overflow: hidden;
 }
+
 
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh; /* Garante que o body tenha, no mínimo, a altura da tela */
 }
-

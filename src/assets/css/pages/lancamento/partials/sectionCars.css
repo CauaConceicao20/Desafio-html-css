@@ -1,0 +1,26 @@
+.section_cars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    margin: 47px auto;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button_purchase {
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}

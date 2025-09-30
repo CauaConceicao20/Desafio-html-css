@@ -27,7 +27,7 @@ header {
 .nav_item {
     display: inline;
     font-size: 21px;
-    margin : 0 30px 0px 0px;
+    margin: 0 30px 0px 0px;
 }
 
 .nav_item a {
@@ -35,4 +35,3 @@ header {
     text-decoration: none;
 }
 
-/*links color: #1351d8;*/
