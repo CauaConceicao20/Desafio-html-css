@@ -1,6 +1,6 @@
 .menu-lateral {
     display: none;
-    position: fixed;
+    position:absolute;
     top: 66px;
     right: -350px;
     width: 250px;
@@ -14,7 +14,7 @@
 }
 
 .menu-lateral.ativo {
-    right: 0;
+    right: 0px;
 }
 
 .menu-lateral a {
