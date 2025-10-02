@@ -1,12 +1,13 @@
 .section_contato {
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: center;
 }
 
 .container_contato {
     display: flex;
-    margin: 0px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
