@@ -1,0 +1,32 @@
+.section_contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_contato {
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.img_container img {
+    width: 100%
+}
+
+.btn_submit {
+    width: 30%;
+    align-self: flex-end;
+    padding: 10px;
+    background-color: #003399;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn_submit:hover{
+    background-color: #001f66;
+}

@@ -2,14 +2,15 @@
 @import "./header.css";
 @import "./footer.css";
 @import "./menuLateral.css";
+@import url('https://fonts.cdnfonts.com/css/ford-antenna');
 
 html {
     height: 100%;
+    font-family: 'Ford Antenna', sans-serif;
 }
-
 
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Garante que o body tenha, no mínimo, a altura da tela */
+    min-height: 100vh;
 }

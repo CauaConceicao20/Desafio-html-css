@@ -24,3 +24,7 @@
     margin-bottom: 40px;
     border-radius: 5px;
 }
+
+.button_purchase:hover{
+    background-color: #001f66;
+}

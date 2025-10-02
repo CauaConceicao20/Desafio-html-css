@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/pages/index/index.css">
+    <link rel="stylesheet" href="./assets/css/pages/contato/contato.css">
     <title>Ford</title>
 </head>
 
@@ -31,15 +31,34 @@
         <h2>Menu</h2>
         <nav class="navegacao-hamburguer">
             <strong><a href="./index.html">Home</a></strong>
-            <strong><a href="lancamento.html">Lancamento</a></strong>
+            <strong><a href="./lancamento.html">Lancamento</a></strong>
             <strong><a href="./contato.html">Contato</a></strong>
         </nav>
     </aside>
-
     <main>
-        <section class="section_main">
-            <a href="https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2022/ranger/pdf/fbr-ficha-tecnica-ranger-2022.pdf"><img class="image_main" src="./assets/img/pages/index/imagem_1.jpg" alt="image-ranger-2022"></a>
-            <p>Está é a nova Ranger 2022. Verifique Novidades <a href="https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2022/ranger/pdf/fbr-ficha-tecnica-ranger-2022.pdf">aqui</a></p>
+        <section class="section_contato">
+            <div class="container_contato">
+                <div class="img_container">
+                    <img src="./assets/img/global/xls 2.2 diesel.jpg" alt="XLS 2.2 Diesel">
+                </div>
+                <div class="form_container">
+                    <h1>Sobre Você</h1>
+                    <form action="">
+                        <input type="text" id="nome" name="nome" placeholder="NOME*" required>
+                        <input type="email" id="email" name="email" placeholder="E-MAIL*" required>
+                        <input type="cpf" id="cpf" name="cpf" placeholder="CPF*" required>
+                        <input type="email" id="email" name="email" placeholder="Telefone" required>
+                        <select name="" id="">
+                            <option value="" selected disabled hidden>TIPO DE CONTATO</option>
+                            <option value="">ELOGIO</option>
+                            <option value="">RECLAMAÇÃO</option>
+                            <option value="">SOLICITAÇÃO</option>
+                        </select>
+                        <textarea name="" id="" placeholder="Mensagem"></textarea>
+                    </form>
+                    <button class="btn_submit" type="submit">Enviar</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

@@ -5,6 +5,8 @@ footer {
     padding: 10px;
     color: white;
     background-color: #1b357e;
+    flex-wrap: wrap;
+     text-align: center;
 }
 
 .social_media {
@@ -33,4 +35,12 @@ footer {
 
 .logo_footer {
     margin: 0 20px 0 0;
+}
+
+@media (max-width: 806px) {
+    footer {
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 10px
+    }
 }

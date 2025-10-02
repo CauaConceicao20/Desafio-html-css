@@ -1,0 +1,14 @@
+@import "../../global/global.css";
+@import "./partials/sectionContato.css";
+@import "./partials/form.css";
+
+html {
+     overflow: hidden;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

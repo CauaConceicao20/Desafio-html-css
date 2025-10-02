@@ -1,7 +1,7 @@
 .card_car {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     width: 400px;
 }
 
@@ -9,7 +9,7 @@
     position: relative;
     width: 30px;
     align-self: flex-end;
-    top: -30px;
+    top: -15px;
     left: -20px
 }
 
@@ -17,7 +17,7 @@ input[type="checkbox"] {
     transform: scale(1.7);
     margin-right: 10px;
     margin-bottom: 10px;
-
+    cursor: pointer;
 }
 
 label {
