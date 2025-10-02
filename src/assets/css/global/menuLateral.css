@@ -1,6 +1,6 @@
 .menu-lateral {
     display: none;
-    position:absolute;
+    position: fixed;
     top: 66px;
     right: -350px;
     width: 250px;
@@ -64,10 +64,3 @@
         display: none;
     }
 }
-
-
-
-
-
-
-
